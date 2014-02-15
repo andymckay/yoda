@@ -1,0 +1,6 @@
+name: yoda
+mem: 128M
+framework:
+    type: standalone
+    runtime: python27
+command: python client.py
