@@ -4,3 +4,6 @@ framework:
     type: standalone
     runtime: python27
 command: python client.py
+hooks:
+    post-staging:
+        - pip install -r requirements.txt
