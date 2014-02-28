@@ -1,5 +1,3 @@
-import datetime
-
 import requests
 
 class GitHubError(Exception):
@@ -36,13 +34,6 @@ def pulls(repo, **kwargs):
             continue
         found.append([pull['html_url'] + '/files/', pull['user']['login']])
     return found
-
-
-def tags(repo):
-    result = get('/repos/mozilla/{0}/tags'.format(repo))
-    for commit in result:
-        date = datetime.datetime.strptime(commit['name'], '%Y.%m.%d')
-        print date
 
 
 def get_pulls(config):
