@@ -10,7 +10,7 @@ PULLS = {
     'zippy': {},
     'spartacus': {},
     'zamboni': {
-        'users': ['kumar303', 'jkerim', 'muffinresearch', 'andymckay']
+        'users': ['kumar303', 'jaredkerim', 'muffinresearch', 'andymckay']
     }
 }
 
