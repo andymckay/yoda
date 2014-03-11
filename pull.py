@@ -5,6 +5,8 @@ class GitHubError(Exception):
 
 
 PULLS = {
+    'apk-signer': {},
+    'fxpay': {},
     'solitude': {},
     'webpay': {},
     'zippy': {},
