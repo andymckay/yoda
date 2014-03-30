@@ -1,9 +1,6 @@
 name: yoda
 mem: 128M
 framework:
-    type: standalone
+    type: python
     runtime: python27
 command: python client.py
-hooks:
-    post-staging:
-        - pip install -r requirements.txt
